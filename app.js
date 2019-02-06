@@ -1,9 +1,8 @@
 let container = document.getElementById("productos");
-const telefono = "";
+const telefono = "55960445";
 
 function fcnCargarProductos(){
 
-    let result = '';
     let output = '';
 
     GlobalListaProductos.forEach(function(product){
