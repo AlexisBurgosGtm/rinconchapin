@@ -7,7 +7,7 @@ function fcnCargarProductos(){
 
     GlobalListaProductos.forEach(function(product){
         output += `
-        <div class="card col-md-6">
+        <div class="card col-md-6 fadeOutUp">
             <div class="card-header">
                 <div class="image-container" style="background-image: url(${product.URL})"></div>
             </div>
